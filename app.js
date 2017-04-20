@@ -25,7 +25,7 @@ if ('development' == app.get('env')) {
   	app.use(express.errorHandler());
 }
 
-MongoClient.connect('mongodb://<dbuser>:<dbpassword>@ds111851.mlab.com:11851/cdcn', function(err, db) {
+MongoClient.connect('mongodb://ntgiang71096:ahihi123?ahihi@ds111851.mlab.com:11851/cdcn', function(err, db) {
 	if(err) {
 		console.log(err);
 	} else {
